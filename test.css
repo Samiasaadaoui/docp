@@ -1,0 +1,271 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 20px 20px  20px ;
+    
+    }
+.header>img{
+    width: 200px;
+}
+    
+    ul{
+   
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+        }
+        .c-center{
+            text-align: center;
+        }
+
+#about{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+ 
+.patients{
+    background-color: aqua;
+    width: 200px;
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+     
+}
+.doctors{
+    background-color: blue;
+    width: 200px;
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+}
+
+.clinics{
+    background-color: darkslategrey;
+    width: 200px;
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+}
+
+.all{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+.paragraph{
+    justify-content: left;
+    color: blueviolet;
+    font-size:15 px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: calc();
+
+}
+.log {
+    
+    display: flex;
+    margin-right: 50px;
+}
+.all2{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+
+    .flag{
+
+background-color: aliceblue;
+    width: 100px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 50px;
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+    }
+    .visits{
+        
+      background-color: aliceblue;
+        width: 100px;
+        border-radius: 5px;
+        height: 200px;
+        padding: 50px;
+        font-size: medium;
+        margin: 10px;
+        margin-right:50px;
+
+    }
+    .patiients{
+      background-color: aliceblue;
+    width: 100px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 50px;
+    font-size: medium;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 10 px; 
+
+    }
+    .doctroos{
+        
+        background-color: aliceblue;
+        width: 100px; 
+        height: 200px;
+        padding: 50px;
+        border-radius: 5px;
+         font-size: medium;
+        border-radius: 5px; 
+        margin: 10px;  
+        margin-bottom: 0px;
+
+    }
+
+        .number{
+            display: flex;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+       
+        }
+
+
+
+.all3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;;
+    gap: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategrey;
+  background-color: aquamarine;
+  
+}
+.world{
+    margin-left: 350px;
+}
+.change{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    font-size: small;
+    font-style: italic;
+} 
+.country{
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif    ;
+
+}
+.warsaw{
+
+    text-align: center;
+}
+.barcelona{
+    text-align: center;
+}
+.munich{
+    text-align: center;
+}
+.istanbul{
+    text-align: center;
+}
+.rome{
+    text-align: center;
+}
+.bologna{
+    text-align: center;
+}
+.curitiba{
+    text-align: center;
+}
+.mexico{
+    text-align: center;
+}
+.all4{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+            justify-content: center;
+            align-items: center;
+}
+.btn{
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+color: black;
+font-style: italic;
+}
+.button{
+    text-align: center;
+    color: blue;
+    
+}
+.adress{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: small;
+}
+.add{
+    color: blue;
+}
+select{
+    border: none;
+
+
+}
+select  {
+    
+    color: black;
+}
+
+select option  {
+    background-color:black ;
+}
+.dropbtn {
+  
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn{
+  text-decoration: underline;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
